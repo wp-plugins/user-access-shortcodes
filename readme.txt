@@ -48,7 +48,7 @@ Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/
 Find help in [our forums](http://wpdarko.com/forums/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
 
 == Screenshots ==
-Coming soon
+1. Control who sees what on your website
 
 == Changelog ==
 = 1.0 =
