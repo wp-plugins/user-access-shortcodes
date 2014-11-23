@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 The most simple way of controlling who sees what on your website. Restrict content to logged in users only (or guests) with a simple shortcode.
 
 == Description ==
-[View demo & instructions](http://wpdarko.com/darko-tools/user-access-shortcodes/)
+[View demo & instructions](http://wpdarko.com/user-access-shortcodes/)
 
 This is the most simple way of controlling who sees what on your website. This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. What you see is what you get, and it’s totally free.
 
@@ -25,7 +25,7 @@ We love to hear from our users, please take the time to rate this plugin and tel
 3. Choose between “Guests only” and “Logged in users only”
 4. Add your content between the tags
 
-Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/) if you need more information on how to use this plugin.
+Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) if you need more information on how to use this plugin.
 
 = Support =
 Find help in [our forums](http://wpdarko.com/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
@@ -39,12 +39,12 @@ Find help in [our forums](http://wpdarko.com/forum/plugins/user-access-shortcode
 4. Activate the plugin
 
 = Usage =
-Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/) for information on how to use it.
+Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) for information on how to use it.
 
 == Frequently Asked Questions ==
 
 = Example & Support =
-Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/) for information on how to use this plugin.
+Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) for information on how to use this plugin.
 
 = Where can I get help with this plugin? =
 Find help in [our forums](http://wpdarko.com/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
