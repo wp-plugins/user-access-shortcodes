@@ -28,7 +28,7 @@ We love to hear from our users, please take the time to rate this plugin and tel
 Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/) if you need more information on how to use this plugin.
 
 = Support =
-Find help in [our forums](http://wpdarko.com/forums/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
 
 == Installation ==
 
@@ -47,7 +47,7 @@ Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/
 Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/) for information on how to use this plugin.
 
 = Where can I get help with this plugin? =
-Find help in [our forums](http://wpdarko.com/forums/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
 
 == Screenshots ==
 1. Control who sees what on your website
