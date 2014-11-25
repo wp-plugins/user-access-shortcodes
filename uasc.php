@@ -2,12 +2,28 @@
 /**
  * Plugin Name: User Access Shortcodes
  * Plugin URI: http://wpdarko.com/darko-tools/user-access-shortcodes/
- * Description: "The most simple way of controlling who sees what on your website". This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. Find support and information on the <a href="http://wpdarko.com/darko-tools/user-access-shortcodes/">plugin's page</a>. This is a free plugin, it is NOT limited and does not contain any ad.
- * Version: 1.0
+ * Description: "The most simple way of controlling who sees what on your website". This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. Find support and information on the <a href="http://wpdarko.com/user-access-shortcodes/">plugin's page</a>. This is a free plugin, it is NOT limited and does not contain any ad.
+ * Version: 1.1
  * Author: WP Darko
  * Author URI: http://wpdarko.com
  * License: GPL2
  */
+
+function uasc_free_pro_check() {
+    if (is_plugin_active('user-access-shortcodes-pro/uasc_pro.php')) {
+        
+        function my_admin_notice(){
+        echo '<div class="updated">
+                <p><strong>PRO</strong> version is activated.</p>
+              </div>';
+        }
+        add_action('admin_notices', 'my_admin_notice');
+        
+        deactivate_plugins(__FILE__);
+    }
+}
+
+add_action( 'admin_init', 'uasc_free_pro_check' );
 
 add_action( 'admin_head', 'uasc_css' );
 
