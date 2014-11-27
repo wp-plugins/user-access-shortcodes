@@ -53,7 +53,7 @@ Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) for inform
 Find help in [our forums](http://wpdarko.com/forums/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
 
 == Screenshots ==
-Coming very soon
+1. Simple, hassle-free content restrictions
 
 == Changelog ==
 = 1.2 =
