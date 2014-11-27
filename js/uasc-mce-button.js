@@ -2,7 +2,7 @@
 	tinymce.PluginManager.add('uasc_mce_button', function( editor, url ) {
 		editor.addButton( 'uasc_mce_button', {
 			icon: 'uasc-mce-icon',
-            tooltip: 'User Access Shortcodes',
+            tooltip: 'User Access Shortcodes FREE',
 			type: 'menubutton',
 			menu: [
 				{

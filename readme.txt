@@ -14,6 +14,9 @@ This is the most simple way of controlling who sees what on your website. This p
 = Rate and review =
 We love to hear from our users, please take the time to rate this plugin and tell us what you think about it!
 
+= Free vs PRO version? =
+The free version of the User Access Shortcodes is **not limited** and does not contain any ad. The [PRO version](http://wpdarko.com/user-access-shortcodes-pro/) gives you access to new features such as **targeting**, **including** and **excluding** specific users.
+
 = Author =
 [WP Darko](http://wpdarko.com/) is one more great place to find exclusive WordPress themes & plugins. 
 
@@ -23,10 +26,10 @@ We love to hear from our users, please take the time to rate this plugin and tel
 3. Choose between “Guests only” and “Logged in users only”
 4. Add your content between the tags
 
-Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/) if you need more information on how to use this plugin.
+Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) if you need more information on how to use this plugin.
 
 = Support =
-Find help in [our forums](http://wpdarko.com/forums/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/forums/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
 
 == Installation ==
 
@@ -37,21 +40,26 @@ Find help in [our forums](http://wpdarko.com/forums/forum/plugins/user-access-sh
 4. Activate the plugin
 
 = Usage =
-Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/) for information on how to use it.
+Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) for information on how to use it.
 
 == Frequently Asked Questions ==
 
 = Example & Support =
-Go to [the plugin's page](http://wpdarko.com/darko-tools/user-access-shortcodes/) for information on how to use this plugin.
+Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) for information on how to use this plugin.
 
 = Where can I get help with this plugin? =
-Find help in [our forums](http://wpdarko.com/forums/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/forums/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
 
 == Screenshots ==
 Coming soon
 
 == Changelog ==
+= 1.2 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* Preparing for PRO version
+
 = 1.1 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0
 * Minor bug fix
 
 = 1.0 =
