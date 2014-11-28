@@ -6,12 +6,12 @@ Stable tag: trunk
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl.html
 
-The most simple way of controlling who sees what on your website. Restrict content to logged in users only (or guests) with a simple shortcode.
+The most simple way of controlling who sees what in your posts/pages. Restrict content to logged in users only (or guests) with a simple shortcode.
 
 == Description ==
 [View demo & instructions](http://wpdarko.com/user-access-shortcodes/)
 
-This is the most simple way of controlling who sees what on your website. This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. What you see is what you get, and it’s totally free.
+This is the most simple way of controlling who sees what in your posts/pages. This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. What you see is what you get, and it’s totally free.
 
 = Rate and review =
 We love to hear from our users, please take the time to rate this plugin and tell us what you think about it!
