@@ -56,6 +56,10 @@ Find help in [our forums](http://wpdarko.com/forums/plugins/user-access-shortcod
 1. Simple, hassle-free content restrictions
 
 == Changelog ==
+= 1.3 =
+* SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
+* Shortcodes can be nested (you can use shortcodes inside the User Access Shortcodes)
+
 = 1.2 =
 * SAFE UPDATE: No data loss for those upgrading from version 1.0 or higher
 * Preparing for PRO version
