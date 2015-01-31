@@ -17,7 +17,7 @@ This is the most simple way of controlling who sees what in your posts/pages. Th
 We love to hear from our users, please take the time to rate this plugin and tell us what you think about it!
 
 = No limitation for the Free version =
-The free version of the User Access Shortcodes is **not limited** and does not contain any ad.    
+The free version of the User Access Shortcodes is **not limited** and does not contain any ad.        
 
 The [PRO version](http://wpdarko.com/user-access-shortcodes-pro/) gives you access to new features such as **targeting**, **including** and **excluding** specific users.
 
@@ -52,7 +52,7 @@ Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) for inform
 Go to [the plugin's page](http://wpdarko.com/user-access-shortcodes/) for information on how to use this plugin.
 
 = No limitation for the Free version =
-The free version of the User Access Shortcodes is **not limited** and does not contain any ad.    
+The free version of the User Access Shortcodes is **not limited** and does not contain any ad.       
 
 The [PRO version](http://wpdarko.com/user-access-shortcodes-pro/) gives you access to new features such as **targeting**, **including** and **excluding** specific users.
 
