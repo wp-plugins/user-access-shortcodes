@@ -1,6 +1,6 @@
 === User Access Shortcodes ===
 Contributors: spwebguy
-Tags: access, users, user, logged, logged in, registered, logged in, shortcodes, shortcode, content, restrict, control, show, hide. posts, pages, block, restriction, button, editor 
+Tags: access, users, user, logged, logged in, registered, logged in, shortcodes, shortcode, content, restrict, control, posts, pages, block, restriction, button, editor 
 Requires at least: 3.6
 Tested up to: 4.1.1
 Stable tag: trunk
