@@ -23,10 +23,10 @@ The [PRO version](http://wpdarko.com/items/user-access-shortcodes-pro/) gives yo
 3. Choose between “Guests only” and “Logged in users only”
 4. Add your content between the tags
 
-Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-user-access-shortcodes/) if you need more information on how to use this plugin.
+Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin) if you need more information on how to use this plugin.
 
 = Support =
-Find help in [our forums](http://wpdarko.com/support/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/support/) for this plugin (we’ll answer you fast, promise).
 
 == Installation ==
 
@@ -37,7 +37,7 @@ Find help in [our forums](http://wpdarko.com/support/forum/plugins/user-access-s
 4. Activate the plugin
 
 = Usage =
-Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-user-access-shortcodes/) for information on how to use it.
+Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin) for information on how to use it.
 
 == Frequently Asked Questions ==
 = No limitation for the Free version =
@@ -51,10 +51,10 @@ The [PRO version](http://wpdarko.com/items/user-access-shortcodes-pro/) gives yo
 3. Choose between “Guests only” and “Logged in users only”
 4. Add your content between the tags
 
-Go to [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-user-access-shortcodes/) if you need more information on how to use this plugin.
+Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin) if you need more information on how to use this plugin.
 
 = Support =
-Find help in [our forums](http://wpdarko.com/support/forum/plugins/user-access-shortcodes/) for this plugin (we’ll answer you fast, promise).
+Find help in [our forums](http://wpdarko.com/support/) for this plugin (we’ll answer you fast, promise).
 
 == Screenshots ==
 1. Simple, hassle-free content restrictions
