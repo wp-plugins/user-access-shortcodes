@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: User Access Shortcodes
-Plugin URI: [the plugin's documentation](http://wpdarko.com/support/documentation/get-started-user-access-shortcodes/)
-Description: "The most simple way of controlling who sees what in your posts/pages". This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. Find support and information on the <a href="http://wpdarko.com/user-access-shortcodes/">plugin's page</a>. This free version is NOT limited and does not contain any ad. The <a href='http://wpdarko.com/items/user-access-shortcodes-pro/'>PRO version</a> allows you target/include/exclude specific users and more.
+Plugin URI: https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin
+Description: "The most simple way of controlling who sees what in your posts/pages". This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. Find help and information on our <a href="http://wpdarko.com/support/">support site</a>. This free version is NOT limited and does not contain any ad. The <a href='http://wpdarko.com/items/user-access-shortcodes/'>PRO version</a> allows you target/include/exclude specific users and more.
 Version: 1.3
 Author: WP Darko
 Author URI: http://wpdarko.com
