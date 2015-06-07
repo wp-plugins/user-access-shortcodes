@@ -60,6 +60,10 @@ Find help in [our forums](http://wpdarko.com/support/) for this plugin (we’ll 
 1. Simple, hassle-free content restrictions
 
 == Changelog ==
+= 1.3.1 =
+* SAFE UPDATE: from 1.0 or higher
+* Fixed a CSS issue with the button icon.
+
 = 1.3 =
 * SAFE UPDATE: from 1.0 or higher
 * Nested shortcodes support

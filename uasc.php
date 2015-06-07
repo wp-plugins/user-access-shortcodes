@@ -3,7 +3,7 @@
 Plugin Name: User Access Shortcodes
 Plugin URI: https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin
 Description: "The most simple way of controlling who sees what in your posts/pages". This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. Find help and information on our <a href="http://wpdarko.com/support/">support site</a>. This free version is NOT limited and does not contain any ad. The <a href='http://wpdarko.com/items/user-access-shortcodes/'>PRO version</a> allows you target/include/exclude specific users and more.
-Version: 1.3
+Version: 1.3.1
 Author: WP Darko
 Author URI: http://wpdarko.com
 License: GPL2
@@ -29,10 +29,11 @@ add_action( 'admin_head', 'uasc_css' );
 
 function uasc_css()
 {
+    $uasc = plugins_url( 'img/uasc-icon.png', __FILE__ );
     echo '
     <style>
         i.mce-i-uasc-mce-icon {
-	       background-image: url("http://localhost:8888/plugin_dev/wp-content/plugins/user-access-shortcodes/img/uasc-icon.png");
+	       background-image: url("'.$uasc.'");
         }
     </style>
     ';
