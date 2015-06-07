@@ -32,7 +32,7 @@ Find help in [our forums](http://wpdarko.com/support/) for this plugin (we’ll 
 
 = Installation =
 1. In your WordPress admin panel, go to Plugins > New Plugin
-2. Find our Responsive Tabs plugin by WP Darko and click Install now
+2. Find our User Access Shortcodes plugin by WP Darko and click Install now
 3. Alternatively, download the plugin and upload the contents of user-access-shortcodes.zip to your plugins directory, which usually is /wp-content/plugins/
 4. Activate the plugin
 
