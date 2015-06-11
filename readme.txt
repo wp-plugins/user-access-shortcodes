@@ -15,7 +15,7 @@ This is the most simple way of controlling who sees what in your posts/pages. Th
 = Usage =
 1. Add/Edit a post/page
 2. Click the User Access Shortcodes button from the editor’s menu
-3. Choose between “Guests only” and “Logged in users only”
+3. Choose between “Guests only”, “Logged in users only” and “Specific users” (by ID)
 4. Add your content between the tags
 
 Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin) if you need more information on how to use this plugin.
@@ -38,7 +38,7 @@ Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles
 = Usage =
 1. Add/Edit a post/page
 2. Click the User Access Shortcodes button from the editor’s menu
-3. Choose between “Guests only” and “Logged in users only”
+3. Choose between “Guests only”, “Logged in users only” and “Specific users” (by ID)
 4. Add your content between the tags
 
 Go to [the plugin's documentation](https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin) if you need more information on how to use this plugin.
