@@ -2,28 +2,12 @@
 /*
 Plugin Name: User Access Shortcodes
 Plugin URI: https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin
-Description: "The most simple way of controlling who sees what in your posts/pages". This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. Find help and information on our <a href="http://wpdarko.com/support/">support site</a>. This free version is NOT limited and does not contain any ad. The <a href='http://wpdarko.com/items/user-access-shortcodes/'>PRO version</a> allows you target/include/exclude specific users and more.
-Version: 1.3.1
+Description: "The most simple way of controlling who sees what in your posts/pages". This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. Find help and information on our <a href="http://wpdarko.com/support/">support site</a>.
+Version: 2.0
 Author: WP Darko
 Author URI: http://wpdarko.com
 License: GPL2
  */
-
-function uasc_free_pro_check() {
-    if (is_plugin_active('user-access-shortcodes-pro/uasc_pro.php')) {
-        
-        function my_admin_notice(){
-        echo '<div class="updated">
-                <p><strong>PRO</strong> version is activated.</p>
-              </div>';
-        }
-        add_action('admin_notices', 'my_admin_notice');
-        
-        deactivate_plugins(__FILE__);
-    }
-}
-
-add_action( 'admin_init', 'uasc_free_pro_check' );
 
 add_action( 'admin_head', 'uasc_css' );
 
@@ -68,22 +52,121 @@ function uasc_register_mce_button( $buttons ) {
 add_shortcode( 'UAS_guest', 'uasc_guest_sc' );
 
 function uasc_guest_sc( $atts, $content = null ) {
-    if ( is_user_logged_in() ) :
-        $content = '';
-        return do_shortcode($content);   
-    else :      
-        return do_shortcode($content);
-    endif;
+    extract( shortcode_atts( array(
+               'in' => '',
+               'admin' => '',
+    ), $atts ) );
+    
+    $in = str_replace(' ', '', $in);
+    $includeds = explode(",", $in);
+    
+    $user_id = get_current_user_id();
+
+    //check if user is logged in
+    if ( is_user_logged_in() ) {
+        //check if admin is allowed
+        if ($admin == '1') {
+            //loop through included user ids
+            foreach ($includeds as $included) {
+                //check if user is included
+                if ($user_id == $included) {
+                    return $content;
+                }
+            }
+            //check if user is admin
+            if ( current_user_can('administrator') ) {
+                return $content;
+            } else {
+                return '';
+            } 
+        } else {
+            //loop though included user ids
+            foreach ($includeds as $included) {
+                //check if user is included
+                if ($user_id == $included) {
+                    return $content;
+                }
+            }
+            return '';
+        }
+    //show content to guests
+    } else {      
+        return $content;
+    }
 }
 
 add_shortcode( 'UAS_loggedin', 'uasc_loggedin_sc' );
 
 function uasc_loggedin_sc( $atts, $content = null ) {
-    if ( is_user_logged_in() ) :
-        return do_shortcode($content); 
-    else :      
-        $content = '';
-        return do_shortcode($content);
-    endif;
+    extract( shortcode_atts( array(
+               'ex' => '',
+    ), $atts ) );
+    
+    $ex = str_replace(' ', '', $ex);
+    $excludeds = explode(",", $ex);
+    
+    $user_id = get_current_user_id();
+    
+    //check if user is logged in
+    if ( is_user_logged_in() ) {
+        //loop through excluded user ids
+        foreach ($excludeds as $excluded) {
+            //check if user is excluded
+            if ($user_id == $excluded) {
+                //show nothing
+                return '';
+            }
+        } 
+        //show content to logged in users
+        return $content;
+    //hide content to guests
+    } else {      
+        return '';
+    }
+}
+
+add_shortcode( 'UAS_specific', 'uasc_specific_sc' );
+
+function uasc_specific_sc( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+            'admin' => '',
+            'ids' => '',
+    ), $atts ) );
+    
+    $ids = str_replace(' ', '', $ids);
+    $selecteds = explode(",", $ids);
+    
+    $user_id = get_current_user_id();
+    
+    //check if user is logged in
+    if ( is_user_logged_in() ) {
+        if ($admin == '1') {
+            //loop through selected user ids
+            foreach ($selecteds as $selected) {
+                //check if user is selected
+                if ($user_id == $selected) {
+                    return $content;
+                }
+            } 
+            //check if user is admin
+            if ( current_user_can('administrator') ) {
+                return $content;
+            } else {
+                return '';
+            }
+        }
+        //loop through selected user ids
+        foreach ($selecteds as $selected) {
+            //check if user is selected
+            if ($user_id == $selected) {
+                return $content;
+            }
+        } 
+        //hide content to non-selected users
+        return '';
+    //hide content to guests
+    } else {      
+        return '';
+    }
 }
 ?>
