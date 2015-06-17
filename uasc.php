@@ -3,7 +3,7 @@
 Plugin Name: User Access Shortcodes
 Plugin URI: https://wpdarko.zendesk.com/hc/en-us/articles/206303637-Get-started-with-the-User-Access-Shortcodes-plugin
 Description: "The most simple way of controlling who sees what in your posts/pages". This plugin adds a button to your post editor, allowing you to restrict content to logged in users only (or guests) with a simple shortcode. Find help and information on our <a href="http://wpdarko.com/support/">support site</a>.
-Version: 2.0
+Version: 2.1
 Author: WP Darko
 Author URI: http://wpdarko.com
 License: GPL2
@@ -70,12 +70,12 @@ function uasc_guest_sc( $atts, $content = null ) {
             foreach ($includeds as $included) {
                 //check if user is included
                 if ($user_id == $included) {
-                    return $content;
+                    return do_shortcode($content);
                 }
             }
             //check if user is admin
             if ( current_user_can('administrator') ) {
-                return $content;
+                return do_shortcode($content);
             } else {
                 return '';
             } 
@@ -84,7 +84,7 @@ function uasc_guest_sc( $atts, $content = null ) {
             foreach ($includeds as $included) {
                 //check if user is included
                 if ($user_id == $included) {
-                    return $content;
+                    return do_shortcode($content);
                 }
             }
             return '';
@@ -118,7 +118,7 @@ function uasc_loggedin_sc( $atts, $content = null ) {
             }
         } 
         //show content to logged in users
-        return $content;
+        return do_shortcode($content);
     //hide content to guests
     } else {      
         return '';
@@ -145,12 +145,12 @@ function uasc_specific_sc( $atts, $content = null ) {
             foreach ($selecteds as $selected) {
                 //check if user is selected
                 if ($user_id == $selected) {
-                    return $content;
+                    return do_shortcode($content);
                 }
             } 
             //check if user is admin
             if ( current_user_can('administrator') ) {
-                return $content;
+                return do_shortcode($content);
             } else {
                 return '';
             }
@@ -159,7 +159,7 @@ function uasc_specific_sc( $atts, $content = null ) {
         foreach ($selecteds as $selected) {
             //check if user is selected
             if ($user_id == $selected) {
-                return $content;
+                return do_shortcode($content);
             }
         } 
         //hide content to non-selected users

@@ -50,6 +50,10 @@ Find help in [our forums](http://wpdarko.com/support/) for this plugin (we’ll 
 1. Simple, hassle-free content restrictions
 
 == Changelog ==
+= 2.1 =
+* SAFE UPDATE: from 1.0 or higher
+* Better shortcode support (nested)
+
 = 2.0 =
 * SAFE UPDATE: from 1.0 or higher
 * Added new minor features
